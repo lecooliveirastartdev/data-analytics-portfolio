@@ -56,9 +56,33 @@ O projeto amplia a experiência com construção de relatórios, trabalhando nav
 
 ---
 
+### 🗄️ Company Workforce Analysis — Power BI + PostgreSQL
+
+Projeto de análise da estrutura organizacional de uma empresa, integrando **PostgreSQL** e **Power BI** em um fluxo completo de dados.
+
+O desafio original utilizava MySQL no Azure. Nesta implementação, a infraestrutura foi adaptada para **PostgreSQL 16 no WSL2**, incluindo criação e carga do banco relacional, integração com o Power BI, transformação dos dados no Power Query e construção do relatório final.
+
+**Principais práticas aplicadas:**
+
+- Adaptação de scripts SQL para PostgreSQL;
+- Modelagem e carga de banco de dados relacional;
+- Integração PostgreSQL → Power BI;
+- Transformação e limpeza com Power Query;
+- Mesclagem de tabelas e autojunção para hierarquia funcionário/gestor;
+- Tratamento de dados e valores nulos;
+- Análise organizacional e construção de relatório.
+
+📁 [power-bi-postgresql-company-analysis](./power-bi-postgresql-company-analysis)
+
+---
+
 ## 🛠️ Tecnologias utilizadas
 
 - **Power BI Desktop**
+- **Power Query**
+- **SQL**
+- **PostgreSQL**
+- **WSL2**
 - **Microsoft Excel**
 - **Git**
 - **GitHub**
