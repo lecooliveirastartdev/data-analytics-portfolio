@@ -10,7 +10,7 @@ Criar um modelo dimensional para análise dos dados dos professores, considerand
 
 Foi construído um esquema estrela com:
 
-- Tabela fato para o contexto de análise dos professores
+- Tabela fato de oferta de disciplinas
 - Dimensão Professor
 - Dimensão Disciplina
 - Dimensão Curso
@@ -28,14 +28,16 @@ A modelagem considera o **professor como objeto principal de análise** e estabe
 - Granularidade
 - Chaves substitutas
 - Dimensão de datas
+- SQL
 
 ## Diagrama
 
-![Esquema Estrela — Análise de Professores](imagens/esquema-estrela-analise-professores.png)
+![Esquema Estrela — Análise de Professores](imagens/esquema-estrela-analise-professores.webp)
 
 ## Arquivos do projeto
 
-- `imagens/esquema-estrela-analise-professores.png`
+- `imagens/esquema-estrela-analise-professores.webp`
+- `sql/modelagem-dimensional.sql`
 
 ## Referência do desafio
 
